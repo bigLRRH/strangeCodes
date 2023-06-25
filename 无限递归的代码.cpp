@@ -1,4 +1,21 @@
-void f()
+void a();
+void b();
+void c();
+void d();
+
+void a()
 {
-    f();
+    c();
+}
+void b()
+{
+    a();
+}
+void c()
+{
+    d();
+}
+void d()
+{
+    b();
 }
