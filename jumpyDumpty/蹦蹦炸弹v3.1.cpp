@@ -17,7 +17,7 @@ void boom(int n)
 int main()
 {
     array<thread, 4> threads;
-    for (int i = 0; i < 4; ++i)
+    for (int i = 0; i < threads.size(); ++i)
     {
         threads[i] = thread(boom, i);
         threads[i].join();
