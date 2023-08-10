@@ -13,5 +13,5 @@ int main()
     cout << chrono::system_clock::now;
     cout << chrono::system_clock::now;
     int i = 0;
-    cout << format("");
+    cout << format("{}",100);
 }
